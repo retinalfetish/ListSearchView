@@ -1,3 +1,2 @@
-include ':listsearchview'
-include ':app'
+include ':app', ':listsearchview'
 rootProject.name = "ListSearchView"
