@@ -109,7 +109,7 @@ public class ListSearchView extends AppCompatAutoCompleteTextView implements
      *
      * @param context Context given for the view. This determines the resources and theme.
      */
-    public ListSearchView(Context context) {
+    public ListSearchView(@NonNull Context context) {
         super(context);
         init(context, null, 0);
     }
@@ -120,7 +120,7 @@ public class ListSearchView extends AppCompatAutoCompleteTextView implements
      * @param context Context given for the view. This determines the resources and theme.
      * @param attrs   The attributes for the inflated XML tag.
      */
-    public ListSearchView(Context context, @Nullable AttributeSet attrs) {
+    public ListSearchView(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init(context, attrs, 0);
     }
@@ -132,7 +132,7 @@ public class ListSearchView extends AppCompatAutoCompleteTextView implements
      * @param attrs        The attributes for the inflated XML tag.
      * @param defStyleAttr Default style attributes to apply to this view.
      */
-    public ListSearchView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ListSearchView(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context, attrs, defStyleAttr);
     }
@@ -145,7 +145,7 @@ public class ListSearchView extends AppCompatAutoCompleteTextView implements
      * @param attrs        The attributes for the inflated XML tag.
      * @param defStyleAttr Default style attributes to apply to this view.
      */
-    private void init(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    private void init(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         TypedArray typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.ListSearchView, defStyleAttr, 0);
         int animatorRes;
         CharSequence hint;
