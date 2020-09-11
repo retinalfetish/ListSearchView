@@ -25,6 +25,7 @@ import android.text.Editable;
 import android.text.InputType;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
+import android.view.CollapsibleActionView;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -35,7 +36,6 @@ import android.widget.TextView;
 import androidx.annotation.AnimatorRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.view.CollapsibleActionView;
 import androidx.appcompat.widget.AppCompatAutoCompleteTextView;
 
 /**
@@ -45,12 +45,12 @@ import androidx.appcompat.widget.AppCompatAutoCompleteTextView;
  * <p><strong>XML attributes</strong></p>
  * <p>The following optional attributes from the android namespace are provided default values:</p>
  * <pre>
- *   actionViewAnimator="reference" // Animator to use when the action view is expanded
+ *   app:actionViewAnimator="reference" // Animator to use when the action view is expanded
  *
- *   android:hint="string"          // Hint given for the search. Default is "Search\u2026"
- *   android:imeOptions="flags"     // The IME options set for the search field
- *   android:inputType="flags"      // Input type for the search text field
- *   android:minWidth="dimension"   // Minimum width for the view. Default is Integer.MAX_VALUE
+ *   android:hint="string"              // Hint given for the search. Default is "Search\u2026"
+ *   android:imeOptions="flags"         // The IME options set for the search field
+ *   android:inputType="flags"          // Input type for the search text field
+ *   android:minWidth="dimension"       // Minimum width for the view. Default is Integer.MAX_VALUE
  * </pre>
  * <p>See {@link R.styleable#ListSearchView ListSearchView Attributes}, {@link R.styleable#View View Attributes}</p>
  */
