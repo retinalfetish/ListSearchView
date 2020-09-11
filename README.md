@@ -64,10 +64,10 @@ public void onSuggestionSubmitted(ListSearchView listSearchView, int position) {
 ## XML attributes
 The following optional attributes from the android namespace are provided default values:
 ```
-actionViewAnimator="reference" // Animator to use when the action view is expanded
+app:actionViewAnimator="reference" // Animator to use when the action view is expanded
 
-android:hint="string"          // Hint given for the search. Default is "Search\u2026"
-android:imeOptions="flags"     // The IME options set for the search field
-android:inputType="flags"      // Input type for the search text field
-android:minWidth="dimension"   // Minimum width for the view. Default is Integer.MAX_VALUE
+android:hint="string"              // Hint given for the search. Default is "Search\u2026"
+android:imeOptions="flags"         // The IME options set for the search field
+android:inputType="flags"          // Input type for the search text field
+android:minWidth="dimension"       // Minimum width for the view. Default is Integer.MAX_VALUE
 ```
