@@ -1,2 +1,2 @@
 include ':app', ':listsearchview'
-rootProject.name = "ListSearchView"
+rootProject.name = 'ListSearchView'

@@ -2,10 +2,10 @@
 A simple SearchView widget extended from [AutoCompleteTextView](https://developer.android.com/reference/android/widget/AutoCompleteTextView) and stylized as such. It can show a drop down list of suggestions from a [ListAdapter](https://developer.android.com/reference/android/widget/ListAdapter).
 
 ## Screenshots
-<img src="/images/screenshot-animation.gif" alt="Screenshot" height=600> <img src="/images/screenshot-styled.png" alt="Screenshot" height=600>
+<img src="/art/screenshot-animation.gif" alt="Screenshot" height=600> <img src="/art/screenshot-styled.png" alt="Screenshot" height=600>
 
 ## Usage
-The source code can be copied from the single class file and attrs.xml in to your project or included by adding [jitpack.io](https://jitpack.io/) to the root build.gradle and `implementation 'com.unary:listsearchview:1.0.0'` as a module dependency.
+The source code can be copied from the single class file and attrs.xml in to your project or included by adding [jitpack.io](https://jitpack.io/#com.unary/listsearchview) to the root build.gradle and `implementation 'com.unary:listsearchview:1.0.0'` as a module dependency.
 ```
 allprojects {
     repositories {
